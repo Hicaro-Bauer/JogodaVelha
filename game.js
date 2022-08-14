@@ -37,7 +37,7 @@ function checkjogo(id){
     }
    
     if(pc && player == "O"){
-        checkjogo(jogoDoPc());
+        setTimeout(() => {checkjogo(jogoDoPc())}, 500);
     } 
 
 
