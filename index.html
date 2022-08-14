@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Jogo da Velha</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="game.js"> </script>
+    </head>
+    <body id="bodymenu">
+        <header id="headerbegin"></header>
+        <main id="mainmenu">
+            <section id="sectiontitle">
+                <p id="title"> Escolha as suas configurações de jogo: </p>
+            </section>
+            <section id="sectionoptions">
+                <form>
+                    <label> <input type="radio" id="cpu1" name="cpu1" value="pc"/> <img src="img/pessoa.png" class="game"> </label>
+                    <label> <input type="radio" id="cpu" name="cpu" value="pc" /> <img src="img/pc.png" class="game"> </label>
+                </form>
+                <button id="buttom"><a href="#topo"> <p id="text">  JOGAR </p> </a></button>
+            </section>
+        </main>
+        <header id="headerend"></header>
+        <main id="maingame">
+            <a name="topo"></a>
+            <table>
+                <tr>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c1" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c2" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c3" onclick="return checkjogo(this.id)"/></td>
+                </tr>
+                <tr>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c4" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c5" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c6" onclick="return checkjogo(this.id)"/></td>
+                </tr>
+                <tr>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c7" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c8" onclick="return checkjogo(this.id)"/></td>
+                    <td><img src="img/transp.png" alt="imagem" width="150px" height="150px" id="c9" onclick="return checkjogo(this.id)"/></td>
+                </tr>
+            </table>
+            <button id="button2"><a href="index.html"> <p id="text2">  MENU </p> </a></button>
+        </main>
+    </body>
