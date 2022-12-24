@@ -1,6 +1,8 @@
 # JogodaVelha
 Atividade desenvolvida no SENAI. Foram utilizadas as linguagens HTML5, CSS3 E JavaScript. 
 
+Link para acesso: https://hicaro-bauer.github.io/JogodaVelha/
+
 <h2> No menu, é possível selecionar o modo de jogo. </h2>
 <img src="https://user-images.githubusercontent.com/105173431/209450902-2dc9d3b5-2a46-4161-a179-fe33d503b0dc.png" />
 
